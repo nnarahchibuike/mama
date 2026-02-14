@@ -1,5 +1,5 @@
 let attemptCount = 0;
-const correctPassword = /\b(baby|babe|love|pleasant|princess)\b/gi; // Regex to match desired keywords in any sentence
+const correctPassword = /\b(Park|Ikeja|Soft|Cinema|ICM)\b/gi; // Regex to match desired keywords in any sentence
 
 // Get elements from the DOM
 const passwordInput = document.getElementById('passwordInput');

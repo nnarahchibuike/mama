@@ -1,5 +1,5 @@
 // Calculate accurate years, months, days since anniversary
-let anniversary = new Date(2025, 3, 5); // April 5, 2025 (month is 0-indexed)
+let anniversary = new Date(2022, 12, 17); // April 5, 2025 (month is 0-indexed)
 let today = new Date();
 
 let years = today.getFullYear() - anniversary.getFullYear();
@@ -69,31 +69,32 @@ let soundBarsLottie = bodymovin.loadAnimation({
 
 
 let trackList = [
-    {
-        name: "Something About You 💕",
-        artist: "Eyedress",
-        path: "music/Eyedress_Dent_May_-_Something_About_You_@BaseNaija.mp3",
+        {
+        name: "Make You Say",
+        artist: "Rotimi",
+        path: "music/Rotimi & Nektunez - Make You Say (Official Video).mp3",
     },
     {
-        name: "Me & U ❤️",
-        artist: "Tems",
-        path: "music/Tems - Me & U (Lyrics).mp3",
-    },
+        name: "Radiance 💕",
+        artist: "Dave ft Tems",
+        path: "music/Dave - Raindance (ft. Tems).mp3",
+    },  
     {
         name: "Snooze",
         artist: "SZA",
         path: "music/Snooze.mp3",
     },
     {
-        name: "My Heart 💕",
-        artist: "Odeal",
-        path: "music/Odeal - My Heart (Official Lyric Video).mp3",
+        name: "Photograph 📸",
+        artist: "Ed Sheeran",
+        path: "music/Ed Sheeran - Photograph (Official Music Video).mp3",
     },
+
     {
-        name: "Sweetest Taboo",
-        artist: "Sade",
-        path: "music/Sade  -  Sweetest Taboo.mp3",
-    }
+        name: "Me & U ❤️",
+        artist: "Tems",
+        path: "music/Tems - Me & U (Lyrics).mp3",
+    },
 ];
 
 // EVENT LISTENERS
